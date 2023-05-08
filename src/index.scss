@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&family=Inter:wght@400;500;600;700&display=swap');
+
+body {
+  background: linear-gradient(90deg, #b9deed, #efefef);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  font-family: "Inter", sans-serif;
+}
+
+//.App {
+//  display: flex;
+//  justify-content: space-around;
+//  align-items: center;
+//
+//  .img-logo {
+//    display: flex;
+//    flex-direction: row;
+//    .title {
+//      font-size: 30px;
+//      position: relative;
+//    }
+//
+//    img {
+//      vertical-align: middle;
+//    }
+//  }
+//}
+
+.App {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  .img-logo {
+    display: block;
+    position: relative;
+
+    .title {
+      text-align: center;
+      font-size: 23px;
+    }
+
+    :last-child {
+      margin-right: 10px;
+      vertical-align: middle;
+    }
+  }
+
+}
+
+
+
+
+

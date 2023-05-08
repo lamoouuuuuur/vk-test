@@ -1,0 +1,33 @@
+.btns {
+  width: 400px;
+  margin: 0 auto;
+  user-select: none;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .submitBtn, .clearBtn {
+    width: 150px;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    background: #fff;
+    box-shadow: 3px 3px 10px 6px rgba(0, 0, 0, 0.3);
+    color: #333;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+  }
+
+  .submitBtn:hover {
+    background-color: #f4f4f4;
+    transition: all 0.3s;
+  }
+
+  .clearBtn:hover {
+    background-color: #f4f4f4;
+    transition: all 0.3s;
+  }
+}
